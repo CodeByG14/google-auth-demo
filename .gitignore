@@ -1,0 +1,23 @@
+# General
+*.log
+*.env
+node_modules/
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Package locks
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
