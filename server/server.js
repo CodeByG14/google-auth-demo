@@ -3,12 +3,13 @@ const express = require("express");
 const cors = require("cors");
 const passport = require("passport");
 const cookieSession = require("cookie-session");
+const passportSetup = require("./passport")
 const app = express;
 
 
 const sessionInfo = {
     name : "session",
-    keys : ["cyberwolve"],
+    keys : ["slim_shady"],
     maxAge : 24 * 60 * 60 * 100,
 }
 
