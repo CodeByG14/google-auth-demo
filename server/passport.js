@@ -5,7 +5,7 @@ const passport = require("passport");
 const newStrategy = {
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL:"/auth/google/callback",
+    callbackURL:"http://localhost:8080/auth/google/callback",
     scope:["profile", "email"],
 }
 
