@@ -1,12 +1,11 @@
 # Created a frontend for login through google for practicing.
-# Javascript
 <h3>
-React
-Express
+<h1>Javascript</h1>
+React, Express
 </h3>
 
-# Packages used:
 <h3>
+<h1>Packages used:</h1>
 express
 express-session
 axios
