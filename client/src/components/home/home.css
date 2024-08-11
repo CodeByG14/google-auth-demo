@@ -101,3 +101,14 @@
     font-weight: 500;
     color: #ffc801;
 }
+
+.details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.details h2{
+    text-align: center;
+}
